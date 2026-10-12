@@ -1,0 +1,29 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN App",
+  "keywords": [
+    "mern"
+  ],
+  "homepage": "https://github.com/theniteshnagar/mern#readme",
+  "bugs": {
+    "url": "https://github.com/theniteshnagar/mern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theniteshnagar/mern.git"
+  },
+  "license": "ISC",
+  "author": "Nitesh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.11.1",
+    "nodemon": "^3.1.14"
+  }
+}
