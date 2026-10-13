@@ -18,7 +18,7 @@ const StudentController = {
       } catch (error) {
         console.error("Error occured while creating new Student: ", error);
         res.status(500).send({
-          error,
+          error: error,
         });
       }
     }
